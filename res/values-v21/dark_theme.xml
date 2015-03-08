@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <style name="Theme.Dark.Recurr" parent="@android:style/Theme.Material.Dialog">
+        <item name="textAppearance">@style/TextAppearance.Dark</item>
+		<item name="textAppearanceEditEventLabel">@style/TextAppearance.Dark.EditEvent_Label</item>
+		<item name="textAppearanceRecurrenceButton">@style/TextAppearance.Dark.Recurrence_Button</item>
+		<item name="textAppearanceEditEventSpinner">@style/TextAppearance.Dark.EditEvent_Spinner</item>
+		<item name="textAppearanceEditEventSpinnerButton">@style/TextAppearance.Dark.EditEvent_SpinnerButton</item>
+		<item name="textAppearanceRecurrenceSpinnerButton">@style/TextAppearance.Dark.Recurrence_SpinnerButton</item>
+		<item name="textAppearanceRecurrencePickerStyle">@style/TextAppearance.Dark.RecurrencePickerStyle</item>
+		
+		<item name="doneButton">@color/done_text_color_dark</item>
+		<item name="materialAccent">@color/accent_material_dark</item>
+		<item name="recurrenceSpinnerText">@color/recurrence_spinner_text_color_dark</item>
+		<item name="recurrenceBubbleTextColor">@color/recurrence_bubble_text_color_dark</item>
+    </style>
+    
+    <style name="TextAppearance.Dark" parent="@android:style/TextAppearance.Material"></style>
+
+    <style name="TextAppearance.Dark.EditEvent_Label">
+        <item name="android:textAppearance">?android:attr/textAppearanceSmall</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_marginLeft">16dip</item>
+        <item name="android:layout_marginRight">-16dip</item>
+        <item name="android:paddingLeft">8dip</item>
+        <item name="android:paddingRight">8dip</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_gravity">top|left</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    
+    <style name="TextAppearance.Dark.EditEvent_SpinnerButton" parent="TextAppearance.Dark.EditEvent_Spinner">
+        <item name="android:paddingLeft">12dp</item>
+        <item name="android:paddingRight">12dp</item>
+    </style>
+
+    <style name="TextAppearance.Dark.RecurrencePickerStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style> 
+
+    <style name="TextAppearance.Dark.Recurrence_Button" parent="TextAppearance.Dark.EditEvent_Label">
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <style name="TextAppearance.Dark.EditEvent_Spinner" parent="android:style/Widget.Material.Spinner">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#FFCCCCCC</item>
+        <item name="android:layout_marginRight">12dp</item>
+        <item name="android:layout_marginLeft">12dp</item>
+    </style>
+
+    <style name="TextAppearance.Dark.Recurrence_SpinnerButton" parent="android:style/Widget.Material.Spinner" />
+    
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="Theme.Styleable">
+	    <attr name="textAppearance" format="reference" />
+		<attr name="textAppearanceEditEventLabel" format="reference"/>
+		<attr name="textAppearanceRecurrenceButton" format="reference"/>
+		<attr name="textAppearanceEditEventSpinner" format="reference" />
+		<attr name="textAppearanceEditEventSpinnerButton" format="reference" />
+		<attr name="textAppearanceRecurrenceSpinnerButton" format="reference" />
+		<attr name="textAppearanceRecurrencePickerStyle" format="reference" />
+		
+		<attr name="doneButton" format="reference" />
+		<attr name="recurrenceSpinnerText" format="reference" />
+		<attr name="recurrenceBubbleTextColor" format="reference" />
+	</declare-styleable>
+</resources>
